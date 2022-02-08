@@ -1,1 +1,1 @@
-dd if=/dev/backup of=/var/www/html/ bs=250M count=4 oflag=direct
+dd if=/dev/zero of=/opt/backup bs=1G count=4 oflag=direct
