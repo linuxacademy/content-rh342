@@ -10,6 +10,9 @@ yum install -y pcp pcp-system-tools
 systemctl start pmcd pmlogger
 systemctl enable pmcd pmlogger
 
+# move logs
+mv /tmp/files/labs/section-2/use-performance-co-pilot/logs/* /var/log/pcp/pmlogger/app/
+
 # start cpukiller
 systemctl start logger
 systemctl enable logger
