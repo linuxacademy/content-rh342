@@ -6,7 +6,7 @@ mv /tmp/files/labs/section-2/use-performance-co-pilot/scripts/logger.sh /opt/scr
 mv /tmp/files/labs/section-2/use-performance-co-pilot/scripts/logger.service /etc/systemd/service/logger.service
 
 # pcp setup
-yum install -y pcp pcp-system-tools pmlogger
+yum install -y pcp pcp-system-tools 
 systemctl start pmcd pmlogger
 systemctl enable pmcd pmlogger
 
