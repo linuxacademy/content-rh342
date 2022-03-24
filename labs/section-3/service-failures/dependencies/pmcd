@@ -1,0 +1,4 @@
+ [Unit]
+ After=grafana.service
+ Requires=grafana.service
+
